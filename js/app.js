@@ -95,8 +95,8 @@ changeAge[2].innerHTML = 27;
 changeName[2].innerHTML = 'Kevin'
 changeStatus[2].innerHTML = 'Married'
 
-var changeImg = document.getElementsByClassName('img');
+var changeImg = document.getElementsByClassName('other');
 console.log(changeImg)
-// changeImg[2].src = 'https://bit.ly/2RhiB9x';
+changeImg[2].src = 'https://bit.ly/2RhiB9x';
 
 
