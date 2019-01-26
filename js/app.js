@@ -88,6 +88,15 @@ changeAge[1].innerHTML = 68
  //div with class name of status
  //div with class anem of Motto
 
+var changeMotto = document.getElementsByClassName('motto');
+changeMotto[2].innerHTML = 'hello'
 
+changeAge[2].innerHTML = 27;
+changeName[2].innerHTML = 'Kevin'
+changeStatus[2].innerHTML = 'Married'
+
+var changeImg = document.getElementsByClassName('img');
+console.log(changeImg)
+// changeImg[2].src = 'https://bit.ly/2RhiB9x';
 
 
